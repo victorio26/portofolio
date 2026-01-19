@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+  <div class="navbar-inner">
+    <div class="nav-logo">Victorio<span>.</span></div>
+
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+  <!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+  <p class="hero-hello">Hello, it’s me</p>
+  <h1 class="hero-name">Victorio</h1>
+  <p class="hero-desc">
+    I enjoy mixing tech, design, and visuals into
+    something clean and meaningful.
+  </p>
+</div>
+
+  <div class="hero-image">
+    <img src="asset/IMG_8274.PNG" alt="My Photo">
+  </div>
+</section>
+
+  <!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+      Saya adalah visual designer dengan minat kuat pada video grafi,
+      desain visual, dan fotografi. Terbiasa mengolah ide menjadi
+      konten visual yang komunikatif dan relevan dengan audiens digital.
+    </p>
+
+    <p class="about-sub">
+      Berpengalaman mengerjakan konten kreatif untuk media sosial,
+      kebutuhan organisasi, dan personal project.
+    </p>
+
+    <a href="https://instagram.com/rfivict"
+       target="_blank"
+       class="about-ig">
+      @rfivict
+    </a>
+  </div>
+</section>
+
+<!-- data -->
+  <section class="about-info" id="skills">
+  <div class="info-card">
+
+    <!-- EDUCATION -->
+    <div class="info-block">
+      <h3>
+        <span class="icon">🎓</span>
+        Education
+      </h3>
+      <p class="info-main">S1 Manajemen</p>
+      <span class="info-sub">2024 – Now</span>
+    </div>
+
+    <!-- TECHNICAL SKILL -->
+    <div class="info-block">
+      <h3>
+        <span class="icon">🛠️</span>
+        Technical Skill
+      </h3>
+      <div class="skill-icons">
+        <img src="asset/canva.png" alt="Canva">
+        <img src="asset/capcut.png" alt="CapCut">
+        <img src="asset/lr.png" alt="Lightroom">
+        <img src="asset/picsart.png" alt="Picsart">
+        <img src="asset/pixellab.png" alt="Pixellab">
+        <img src="asset/vsco.png" alt="Vsco">
+      </div>
+    </div>
+
+    <!-- PERSONAL SKILLS -->
+    <div class="info-block">
+      <h3>
+        <span class="icon">🧠</span>
+        Personal Skills
+      </h3>
+      <ul class="info-list">
+        <li>Creative Thinking</li>
+        <li>Communication</li>
+        <li>Time Management</li>
+        <li>Teamwork</li>
+      </ul>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="info-block">
+      <h3>
+        <span class="icon">💼</span>
+        Experience
+      </h3>
+      <ul class="info-list">
+        <li>Social Media Content Designer</li>
+        <li>Organization Creative Team</li>
+        <li>Freelance Visual Designer</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+  <!-- section work -->
+<section class="portfolio" id="work">
+  <h2 class="portfolio-title">Portfolio</h2>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-item">
+      <h3>Pamflet</h3>
+      <div class="portfolio-images">
+        <img src="asset/pamflet1.jpg" alt="">
+        <img src="asset/pamflet2.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="portfolio-item">
+      <h3>Banner</h3>
+      <div class="portfolio-images">
+        <img src="asset/banner (1).jpg" alt="">
+        <img src="asset/banner (2).jpg" alt="">
+      </div>
+    </div>
+
+    <div class="portfolio-item">
+      <h3>Feed Instagram</h3>
+      <div class="portfolio-images">
+        <img src="asset/IMG_8286.PNG" alt="">
+        <img src="asset/IMG_8287.PNG" alt="">
+      </div>
+    </div>
+
+    <div class="portfolio-item">
+      <h3>Reels Instagram</h3>
+      <div class="portfolio-images">
+        <img src="asset/reels1.PNG" alt="">
+        <img src="asset/reels2.PNG" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="portfolio-link">
+    <a href="https://drive.google.com/drive/folders/1Y0jYA1eQ1Z28zZPnno4D09qe3ZKpjO9k?usp=drive_link" target="_blank">
+      View full portfolio on Google Drive →
+    </a>
+  </div>
+</section>
+
+<!-- kontak person -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <h2>Let’s Connect</h2>
+    <p>Feel free to reach out for collaboration or just say hi 👋</p>
+
+    <div class="contact-links">
+      <a href="https://instagram.com/rfivict" target="_blank" class="contact-item ig">
+        Instagram
+      </a>
+
+      <a href="https://tiktok.com/@jejouw" target="_blank" class="contact-item tt">
+        TikTok
+      </a>
+
+      <a href="https://wa.me/628123456789" target="_blank" class="contact-item wa">
+        WhatsApp
+      </a>
+    </div>
+
+    <span class="contact-footer">© 2026 Rafi Victorio</span>
+  </div>
+</section>
+
+      <script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  /* ================= HERO LOAD ================= */
+  const hero = document.querySelector(".hero");
+  if (hero) {
+    window.addEventListener("load", () => {
+      hero.classList.add("show");
+    });
+  }
+
+  /* ================= HERO PARALLAX ================= */
+  const heroImage = document.querySelector(".hero-image");
+  if (heroImage) {
+    document.addEventListener("mousemove", (e) => {
+      const x = (window.innerWidth / 2 - e.clientX) / 30;
+      const y = (window.innerHeight / 2 - e.clientY) / 30;
+      heroImage.style.transform = `translate(${x}px, ${y}px)`;
+    });
+  }
+
+  /* ================= REVEAL ABOUT + INFO ================= */
+  const revealElements = document.querySelectorAll(".about-text, .info-card");
+
+  const revealObserver = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.35 });
+
+  revealElements.forEach(el => revealObserver.observe(el));
+
+  /* ================= PORTFOLIO REVEAL ================= */
+  const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+  const portfolioObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  }, { threshold: 0.3 });
+
+  portfolioItems.forEach(item => portfolioObserver.observe(item));
+
+  /* ================= CONTACT REVEAL ================= */
+  const contactSection = document.querySelector(".contact");
+
+  if (contactSection) {
+    const contactObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    }, { threshold: 0.3 });
+
+    contactObserver.observe(contactSection);
+  }
+
+  /* ================= NAVBAR ACTIVE LINK ================= */
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-menu a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 140;
+      const sectionHeight = section.offsetHeight;
+
+      if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+
+});
+</script>
+
+
+</body>
+</html>
