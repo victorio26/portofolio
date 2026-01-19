@@ -563,6 +563,39 @@ body::after {
 
 }
 
+/* ===== MOBILE VISUAL FIX INFO CARD ===== */
+@media (max-width: 768px) {
+
+  .about-info {
+    padding: 60px 6%;
+  }
+
+  .info-card {
+    padding: 28px;
+    border-radius: 28px;
+    gap: 20px;
+  }
+
+  .info-block {
+    border-radius: 22px;
+    padding: 22px 20px;
+  }
+
+  .info-block h3 {
+    font-size: 22px;
+  }
+
+  .info-main {
+    font-size: 15px;
+  }
+
+  .info-sub,
+  .info-list li {
+    font-size: 13px;
+  }
+
+}
+
 
 /* ================= PORTFOLIO ================= */
 .portfolio {
